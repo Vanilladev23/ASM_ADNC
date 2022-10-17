@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/tvCourseCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="MOB101"/>
+
+        <TextView
+            android:id="@+id/tvCourseName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Lập trình Android cơ bản"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_secondary"
+            android:layout_weight="1"
+            android:gravity="right"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCourseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="07:00 - 09:00"/>
+
+        <TextView
+            android:id="@+id/tvCourseRoom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Room 1"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <ImageButton
+            android:id="@+id/ivEdit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:backgroundTint="#fff"
+            android:src="@drawable/ic_edit"/>
+
+        <ImageButton
+            android:id="@+id/ivDelete"
+            android:layout_width="24dp"
+            android:backgroundTint="#fff"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASM_ADNC</string>
+
+    <string name="facebook_app_id">649181390149458</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">5c306c1d3d54770343d4496b755a7e48</string>
+
+</resources>
